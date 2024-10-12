@@ -8,6 +8,44 @@
 </head>
 <body>
     <h1>Estruturas Condicionais Compostas</h1>
-    <h2></h2>
+    <h2>1)-Digite um número para verificar se ele é ou não um número primo.</h2>
+    <input type="number" id="num" placeholder="Digite um número">
+    <button type="submit" onclick="verificarNumPrimo()">Verificar</button>
+    <div id="resultado"></div>
+   
+    <hr>
+
+    <h2>2)-Digite sua idade para saber a sua categoria</h2>
+    <input type="number" id="idade" placeholder="Digite sua idade">
+    <button type="submit" onclick="verificarIdade()">Verificar</button>
+    <div id="categoria"></div>
+
+    <hr>
+
+    <h2>3)-Digite o índice de poluição</h2>
+    <input type="number" id="indice" placeholder="Digite o índice">
+    <button type="submit" onclick="verificarPoluição()">Verificar</button>
+    <div id="resultadoPolu"></div>
+
+    <hr>
+
+    <h2>4)-Tempo de aposentadoria</h2>
+    <input type="text" id="codigo" placeholder="Código do Empregado">
+    <input type="number" id="anoNascimento" placeholder="Ano de Nascimento">
+    <input type="number" id="anoIngresso" placeholder="Ano de Ingresso">
+    <button type="submit" onclick="verificarAposentadoria()">Verificar Aposentadoria</button>
+    <div id="resultadoApo"></div>
+
+    <hr>
+
+    <h2>5)-Equação de segundo grau</h2>
+    <input type="text" name="valA" id="valA" placeholder="Digite o valor de A">
+    <input type="text" name="valB" id="valB" placeholder="Digite o valor de B">
+    <input type="text" name="valC" id="valC" placeholder="Digite o valor de C">
+    <button onclick="calcEquaSeg()">Calcular</button>
+    <p id="x1"></p>
+    <p id="x2"></p>
+    <p id="delta"></p>
+    <p id="x0"></p>
 </body>
 </html>
